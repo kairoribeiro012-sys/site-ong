@@ -230,6 +230,7 @@ footer {
 
   .hero img, .about img {
     width: 100%;
+    margin-top: 20px;
   }
 
   .hero-text, .about-text {
@@ -245,3 +246,4 @@ footer {
     margin: 10px 0;
   }
 }
+
