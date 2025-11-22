@@ -9,7 +9,9 @@
 <body>
     <header>
         <img src="C:\Users\kairo\OneDrive\Desktop\Projeto HTMl\imagens\Image Oct 12, 2025, 03_30_30 PM.png" alt="Logo Coração de 4 Patas" class="logo">
-        <nav>
+        <div id="menuBtn">☰</div>
+        <div id="overlay"></div>
+        <nav id="sideMenu">
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
@@ -30,7 +32,7 @@
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
-            <button type="submit">Enviar</button>
+            <button class='btn' type="submit">Enviar</button>
         </form>
     </section>
 
@@ -42,6 +44,9 @@
             <a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a>
         </div>
     </footer>
+    <button id="btn-topo">&uarr;</button>
+    <script src="script.js"></script>
 </body>
 </html>
+
 
