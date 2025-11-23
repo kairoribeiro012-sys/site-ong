@@ -171,7 +171,7 @@ nav ul li a:hover, .ativo {
   align-items: center;
   justify-content: space-between;
   padding: 80px;
-  background-color: #fffbea;
+  background-color: ##dde28e;
 }
 
 .hero-text {
@@ -283,7 +283,7 @@ th, td {
 }
 
 th {
-  background-color: var(--amarelo);
+  background-color: #dde28e;
   color: #fff;
 }
 
@@ -307,7 +307,7 @@ th {
 
 /* CONTATO */
 .contact {
-  background-color: #eb97cb;
+  background-color: ##dde28e;
   padding: 80px 60px;
   text-align: center;
 }
@@ -451,5 +451,6 @@ footer {
   pointer-events: all;
   ;
 }
+
 
 
